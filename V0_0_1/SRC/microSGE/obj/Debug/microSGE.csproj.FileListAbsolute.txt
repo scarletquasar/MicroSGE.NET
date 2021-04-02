@@ -1,0 +1,9 @@
+C:\Users\User\Documents\projetos_vs\microSGE\bin\Debug\microSGE.exe.config
+C:\Users\User\Documents\projetos_vs\microSGE\bin\Debug\microSGE.exe
+C:\Users\User\Documents\projetos_vs\microSGE\bin\Debug\microSGE.pdb
+C:\Users\User\Documents\projetos_vs\microSGE\obj\Debug\microSGE.csprojAssemblyReference.cache
+C:\Users\User\Documents\projetos_vs\microSGE\obj\Debug\microSGE.Properties.Resources.resources
+C:\Users\User\Documents\projetos_vs\microSGE\obj\Debug\microSGE.csproj.GenerateResource.cache
+C:\Users\User\Documents\projetos_vs\microSGE\obj\Debug\microSGE.exe
+C:\Users\User\Documents\projetos_vs\microSGE\obj\Debug\microSGE.pdb
+C:\Users\User\Documents\projetos_vs\microSGE\obj\Debug\microSGE.Main.resources
