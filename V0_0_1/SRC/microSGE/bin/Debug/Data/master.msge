@@ -1,0 +1,12 @@
+[MICROSGE_REGISTRO]
+%nome_ins%=
+%cep%=
+%zona%=
+%prefix%=
+%tel%=
+%uf%=
+%mun%=
+%bairro%=
+%cnpj%=
+%desc%=
+%logo%=logo.png

@@ -1,0 +1,71 @@
+==================================================
+
+
+microSGE - Sistema de Gerenciamento Escolar
+
+
+==================================================
+Versão: 0.0.1
+
+
+> Aplicativo desenvolvido como projeto de testes para a criação
+de um micro sistema integrado de gerenciamento escolar e 
+atualmente se encontra em fase [Alpha] de desenvolvimento.
+
+
+==================================================
+
+FUNÇÕES:
+
+===> ABA INSTITUIÇÃO <===
+
+Campo de informações para registro (único) da instituição que
+pode ser ativado ao clicar no botão [EDITAR] e desativado
+ao clicar no botão [GRAVAR] para salvar as informações
+alteradas. O botão [REVERTER CAMPOS] reverte todos os campos
+com base nas informações anteriores. O botão [LIMPAR INFORMAÇÕES]
+limpa todos os campos.
+
+O Campo [CEP] (cor azul escuro) pode ser usado para preencher os
+campos [BAIRRO], [MUNICÍPIO] e [UF] a partir do consumo da API
+ViaCEP. { Classe ViaCEP: Função ViaCEP_Obter (string[]) }
+
+O botão [ALTERAR LOGO] serve para realizar a mudança da imagem de
+logo da instituição e a salva como PNG nos arquivos de dados. 
+
+===> ABA ALUNOS <===
+
+Campo de informações dos alunos. Pode-se pesquisar alunos usando
+a ComboBox principal + clique em seu dropdown ou acessá-los 
+diretamente usando seu nome. Reserva-se o uso do caractere (_)
+para espaços e por isso seu uso para registro de alunos é
+desencorajado podendo acarretar em bugs e falhas. O campo de pesquisa
+é essencial para abrir o aluno e por isso está em vermelho 
+(obrigatório).
+
+O botão [NOVO ALUNO] abre o painel para a criação de um novo aluno mas
+só o cria realmente após a utilização do botão [GRAVAR E SAIR DO ALUNO].
+O botão [ALTERAR FOTO] é semelhante ao [ALTERAR LOGO] da aba 
+[INSTITUIÇÃO] e altera a foto do aluno. O botão [SAIR SEM GRAVAR] cancela
+a operação atual e não grava novos alunos ou alterações.
+
+O botão [EXCLUIR ALUNO] exclui o aluno. O botão [PASTA DO ALUNO] abre uma
+pasta especial para o aluno específico criada nos arquivos de dados.
+
+===> ABA FUNCIONÁRIOS <===
+
+A aba funcionários é basicamente uma cópia da área alunos feita em uma 
+localização de dados diferente.
+
+==================================================
+
+A localização dos arquivos de dados equivale à localização atual do programa
++ "\Data\" onde existem as pastas "\Alunos\", "\Funcionarios\" e os arquivos
+"logo.png" e "master.msge" todos essenciais para a inicialização do programa.
+
+==================================================
+
+Nas próximas versões espero incluir novas funcionalidades tais como organização
+por classes/turmas, sistema de notas/boletins, relação financeira dos funcionários
+e sistemas de exportação de documentos escolares incluindo integração com API de
+e-mail.
